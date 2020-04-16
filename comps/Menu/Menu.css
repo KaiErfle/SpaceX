@@ -1,0 +1,24 @@
+ul{
+    font-family: PT Sans;
+    list-style-type: none;
+    cursor: pointer;
+    
+
+}
+
+li:hover{
+    color: rgb(0, 0, 255);
+}
+
+li {
+    margin: 20px;
+}
+
+#menu{
+    margin-bottom: 50px;
+}
+
+#test{
+    margin-top: 50px;
+}
+
