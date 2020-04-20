@@ -2,44 +2,32 @@ import React from 'react';
 import './Menu.css'
 
 const Menu = () => <div>
-<div>
-    <ul id="menu">
-        <li onClick={home} >Home</li>
-    </ul>
-    <ul id="list">
-        <li onClick={AboutMars} >About Mars</li>
-        <li onClick={LiveMars} >How to live on Mars</li>
-        <li onClick={AboutSpacex} >About SpaceX</li>
-        <li onClick={Gallery} >Gallery</li>
-    </ul>
-    <ul id="test">
-        <li onClick={Test} >Take the test</li>
-    </ul>
-    </div>    
+<body>
+<button id="roundButton"><span class="material-icons">
+        menu
+        </span></button>
+    <div id="container">
+        <h1 id="title">Info pages:</h1>
+        <ul>
+            <li>Info about Mars</li>
+            <li>How to live on Mars</li>
+            <li>About SpaceX</li>
+            <li>Mars colony concept <article></article></li>
+            <li>Take the Test</li>
+        </ul>
+    </div>
+<div className="show" id="flyoutMenu">
+    <h2><a href="#">Home</a></h2>
+    <h2><a class="items" href="#">Info about Mars</a></h2>
+    <h2><a class="items" href="#">How to live on Mars</a></h2>
+    <h2><a class="items" href="#">About SpaceX</a></h2>
+    <h2><a class="items" href="#">Gallery</a></h2>
+    <h2><a class="items" href="#">Take the test</a></h2>
 </div>
+</body>
+</div>    
 
-function home() {
-    alert("this button takes you home")
-}
 
-function AboutMars() {
-    alert("this gives a description of mars")
-}
 
-function LiveMars() {
-    alert("this tells you how to live on mars")
-}
-
-function AboutSpacex() {
-    alert("this tells you more about spacex")
-}
-
-function Gallery() {
-    alert("this takes you to the gallery")
-}
-
-function Test() {
-    alert("this takes you to the test page")
-}
 
 export default Menu;

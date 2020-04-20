@@ -1,50 +1,78 @@
-ul{
-    font-family: PT Sans;
-    list-style-type: none;
-    
+body {
+    background-color: #EEE;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 25px;
+    margin: 0;
+    overflow: auto;
+}
 
+
+
+#title{
+    font-family: VT323;
+}
+
+li{
+    list-style-type: none;
 }
 
 li:hover{
-    color: rgb(0, 0, 255);
     cursor: pointer;
+    color: #56beff;
 }
 
-li {
-    margin: 20px;
+#container li {
+    margin-bottom: 10px;
 }
 
-#menu{
-    margin-bottom: 50px;
+#roundButton {
+    border-style: none;
+    outline: none;
+    transition: transform .3s cubic-bezier(0, .52, 0, 1);
 }
 
-#test{
-    margin-top: 50px;
+
+#roundButton:hover {
+    cursor: pointer;
+    transform: scale(1.2, 1.2);
 }
 
-/* .sidenav {
-    height: 100%;
-    width: 0;
+#roundButton:active {
+    border-color: #003557;
+    background-color: #FFF;
+}
+
+
+ 
+#flyoutMenu h2 a {
+    color: rgb(255, 255, 255);
+    font-family: PT Sans;
+    font-size: 14pt;    
+    margin-left: 15px;
+    text-decoration: none;
+}
+ 
+#flyoutMenu h2 a:hover {
+    color: #56beff;
+    /* text-decoration: underline; */
+}  
+
+#flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+}  
+
+#flyoutMenu {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
- */
+    transform: translate3d(-100vw, 0, 0);
+    transition: transform .3s cubic-bezier(0, .52, 0, 1);
+    overflow: scroll;
+}
+
+.show {
+    transform: translate3d(0vw, 0, 0);
+} 
