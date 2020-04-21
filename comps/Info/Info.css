@@ -1,8 +1,11 @@
 .container{
     width: 16%;
+    height: 70vh;
     display: inline-flex;
     flex-direction: column;
     /* border: black solid 1px; */
+    background-color: #00458fdc ;
+    padding: 5px;
     
 }
 
@@ -15,6 +18,7 @@
 }
 
 .container p {
+    color: #ffffff;
     font-family: PT Sans;
     position: relative;
     top: -80px;
