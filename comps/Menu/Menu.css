@@ -62,14 +62,13 @@ li:hover{
 }  
 
 #flyoutMenu {
-    width: 50vw;
+    width: 30vw;
     height: 100vh;
     background-color: rgb(0, 0, 0);
     position: fixed;
     top: 0;
-    left: 0;
-    transform: translate3d(-100vw, 0, 0);
-    transition: transform .3s cubic-bezier(0, .52, 0, 1);
+    left: -30%;
+    transition: left 0.5s;
     overflow: scroll;
 }
 

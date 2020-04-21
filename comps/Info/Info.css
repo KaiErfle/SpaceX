@@ -1,0 +1,23 @@
+.container{
+    width: 16%;
+    display: inline-flex;
+    flex-direction: column;
+    /* border: black solid 1px; */
+    
+}
+
+.container img{
+    position: relative;
+    top: -30px;
+    width: 200px;
+    height: 175px;
+    object-fit: contain;
+}
+
+.container p {
+    font-family: PT Sans;
+    position: relative;
+    top: -80px;
+    display: block;
+}
+

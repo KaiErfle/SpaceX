@@ -1,11 +1,10 @@
 import React from 'react';
 import './Menu.css'
+import {IoMdMenu} from 'react-icons/io';
 
 const Menu = () => <div>
 <body>
-<button id="roundButton"><span class="material-icons">
-        menu
-        </span></button>
+<button id="roundButton" onClick={slide}><IoMdMenu /></button>
     <div id="container">
         <h1 id="title">Info pages:</h1>
         <ul>
@@ -16,7 +15,7 @@ const Menu = () => <div>
             <li>Take the Test</li>
         </ul>
     </div>
-<div className="show" id="flyoutMenu">
+<div className="show" id="flyoutMenu" onClick={slide}>
     <h2><a href="#">Home</a></h2>
     <h2><a class="items" href="#">Info about Mars</a></h2>
     <h2><a class="items" href="#">How to live on Mars</a></h2>
@@ -26,6 +25,21 @@ const Menu = () => <div>
 </div>
 </body>
 </div>    
+
+var sliderStatus = false;
+//Keeps track if slider is out or off screen
+
+function slide(){
+    if(sliderStatus === false){
+        document.querySelector("#flyoutMenu").style.left = 0;
+        sliderStatus = true;
+    }
+    else{
+        document.querySelector("#flyoutMenu").style.left = "-30%";
+        sliderStatus = false;
+    }
+}
+
 
 
 
