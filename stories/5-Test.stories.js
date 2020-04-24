@@ -1,9 +1,15 @@
 import React from 'react';
-import Test from '../comps/Test';
+import Physical from '../comps/Test/Physical';
+import Ethical from '../comps/Test/Ethical';
+import IQ from '../comps/Test/IQ'
 
 export default {
     title:"Test",
-    component:Test
+    component:Physical
 };
 
-export const TestPage = () => <Test />
+export const PhysicalTest = () => <Physical />
+
+export const EthicalTest = () => <Ethical />
+
+export const IQTest = () => <IQ />
