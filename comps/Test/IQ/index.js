@@ -25,8 +25,8 @@ C. 26<br/>
 <form id="letters">
 
 <p>Which of the following can be arranged into a 5-letter English word?</p>
-<input type="radio" value="A" />
-A. H R G S T<br/>
+<input type="radio" value="A"/>
+A. H R G S T <br/> 
 
 <input type="radio" value="B" />
 B. R I L S A<br/>

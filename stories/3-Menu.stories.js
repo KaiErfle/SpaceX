@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from '../comps/Menu';
+import MenuButton from '../comps/Menu/MenuButton';
 
 
 export default {
@@ -9,3 +10,4 @@ export default {
 
 export const MenuPage = () => <Menu />
 
+export const MenuButtonPage = () => <MenuButton />

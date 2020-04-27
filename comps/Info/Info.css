@@ -1,23 +1,31 @@
 .container{
-    width: 16%;
-    height: 70vh;
+    width: 30%;
+    height: 50vh;
     display: inline-flex;
     flex-direction: column;
+    align-items: center;
     /* border: black solid 1px; */
-    background-color: #00458fdc ;
-    padding: 5px;
+    background-color: #141414 ;
+    padding:0px 15px 0px 15px;
     
+}
+
+.container a{
+    left: -35%;
+    position: relative;
+    top: -60px;
 }
 
 .container img{
     position: relative;
     top: -30px;
-    width: 200px;
-    height: 175px;
+    width: 250px;
+    height: 225px;
     object-fit: contain;
 }
 
 .container p {
+    font-size: small;
     color: #ffffff;
     font-family: PT Sans;
     position: relative;

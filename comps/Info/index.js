@@ -7,7 +7,7 @@ const defaultImg = require('./blue_pink.png')
 const Info = ({img, name, text}) => <div>
     <div className="container">
         <img src={img} />
-        <Header fontSize="24px" text={name} />
+        <a><Header fontSize="24px" text={name} /></a>
         <p>{text}</p>
     </div>
 </div>
