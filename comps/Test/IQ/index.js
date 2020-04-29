@@ -36,7 +36,6 @@ Get ready cause this i sthe hardest part of the test, but i'm sure you'll do gre
 
 </form>
 
-<Button text="Continue" />
 
 </div>
 

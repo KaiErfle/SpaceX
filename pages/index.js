@@ -18,7 +18,7 @@ const Index = () => <div className="HomePage">
     <Link href="/LivingPage"><button>How to live on Mars</button></Link>
     <Link href="/AboutPage"><button>About SpaceX</button></Link>
     <Link href="/GalleryPage"><button>Gallery</button></Link>
-    <Link href="/TestPage"><button>Take the Test</button></Link>
+    <Link href="/TestPages/PhysicalTestPage"><button>Take the Test</button></Link>
 </div>
 
 export default Index

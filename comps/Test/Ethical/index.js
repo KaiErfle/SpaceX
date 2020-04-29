@@ -43,7 +43,6 @@ Kidding! I'm sure you're nice, but just to be sure...</p>
 
 </form>
 
-<Button text="Continue" />
 
 </div>
 

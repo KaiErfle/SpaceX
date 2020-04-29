@@ -49,7 +49,6 @@ Remember to be honest about this portion of the test!
 
 </form>
 
-<Button text="Continue" />
 
 </div>
 
