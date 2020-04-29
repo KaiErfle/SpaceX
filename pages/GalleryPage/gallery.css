@@ -1,0 +1,19 @@
+.bg{
+    height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.images{
+    margin-top: 20px;
+    width: 400px;
+    height: 200px;
+    border: white solid 1px;
+}
+
+#button{
+    position: fixed;
+    top: 50px;
+    left: 40px;
+}

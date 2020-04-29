@@ -1,6 +1,6 @@
 h1{
     font-family: VT323;
-    color: blue;
+    color: rgb(38, 153, 251);
 }
 
 #info{
@@ -9,6 +9,10 @@ h1{
 }
 
 p{
-    color: blue;
+    color:rgb(38, 153, 251);
     font-family: PT Sans;
+}
+
+label{
+    color: white;
 }

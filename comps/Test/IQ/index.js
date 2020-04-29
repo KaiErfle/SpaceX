@@ -12,13 +12,13 @@ Get ready cause this i sthe hardest part of the test, but i'm sure you'll do gre
 <form id="number">
 <p>Which number should come next in the pattern? 37, 34, 31, 28</p>
 <input type="radio" value="A" />
-A. 24<br/>
+<label>A. 24<br/></label>
 
 <input type="radio" value="B" />
-B. 25<br/>
+<label>B. 25<br/></label>
 
 <input type="radio" value="C" />
-C. 26<br/>
+<label>C. 26<br/></label>
 
 </form>
 
@@ -26,13 +26,13 @@ C. 26<br/>
 
 <p>Which of the following can be arranged into a 5-letter English word?</p>
 <input type="radio" value="A"/>
-A. H R G S T <br/> 
+<label>A. H R G S T <br/></label> 
 
 <input type="radio" value="B" />
-B. R I L S A<br/>
+<label>B. R I L S A<br/></label>
 
 <input type="radio" value="C" />
-C. W Q R G S<br/>
+<label>C. W Q R G S<br/></label>
 
 </form>
 

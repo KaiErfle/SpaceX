@@ -13,11 +13,11 @@ Remember to be honest about this portion of the test!
     
 <form id="excercise">
 <p>Do you think you get enough excercise</p>
-<input type="radio" value="A" />
-A. Yes<br/>
+<input id="text" type="radio" value="A" />
+<label>A. Yes<br/></label>
 
 <input type="radio" value="B" />
-B. No<br/>
+<label>B. No<br/></label>
 
 </form>
 
@@ -25,13 +25,13 @@ B. No<br/>
 
 <p>How tall are you?</p>
 <input type="radio" value="A" />
-A. Short<br/>
+<label>A. Short<br/></label>
 
 <input type="radio" value="B" />
-B. Average<br/>
+<label>B. Average<br/></label>
 
 <input type="radio" value="C" />
-C. Tall<br/>
+<label>C. Tall<br/></label>
 
 </form>
 
@@ -39,13 +39,13 @@ C. Tall<br/>
 
 <p>how much do you roughly weigh?</p>
 <input type="radio" value="A" />
-A. 90lbs-120lbs<br/>
+<label>A. 90lbs-120lbs<br/></label>
 
 <input type="radio" value="B" />
-B. 130lbs-160lbs<br/>
+<label>B. 130lbs-160lbs<br/></label>
 
 <input type="radio" value="C" />
-C. 170lbs-200lbs<br/>
+<label>C. 170lbs-200lbs<br/></label>
 
 </form>
 

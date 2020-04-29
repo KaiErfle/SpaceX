@@ -1,0 +1,38 @@
+.HomePage{
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100vw;
+    height: 150vh;
+    align-items: center;
+
+}
+
+#menu{
+    position: fixed;
+    top: 50px;
+    left: 40px;
+}
+
+.HomePage button{
+    margin-top: 5%;
+    outline: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: blanchedalmond;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.HomePage button:hover{
+    color: #2699fb;
+    transform: scale(1.7, 1.7);
+    transition: ease-in-out .5s;
+}
+
+#logo{
+    position: relative;
+    object-fit: contain;
+    width: 300px;
+    height: 200px;
+}

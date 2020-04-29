@@ -12,10 +12,10 @@ Kidding! I'm sure you're nice, but just to be sure...</p>
 <form id="wallet">
 <p>If you find a wallet on the ground, what do you do with it? </p>
 <input type="radio" value="A"/>
-A. Take the money and leave it<br/>
+<label>A. Take the money and leave it<br/></label>
 
 <input type="radio" value="B" />
-B. Take it to lost and found untouched<br/>
+<label>B. Take it to lost and found untouched<br/></label>
 
 </form>
 
@@ -23,10 +23,10 @@ B. Take it to lost and found untouched<br/>
 
 <p>Do you give upi your seat on the bus to an elderly man/woman? </p>
 <input type="radio" value="A" />
-A. Yes, they need it sit<br/>
+<label>A. Yes, they need it sit<br/></label>
 
 <input type="radio" value="B" />
-B. No, they can have it when I get off<br/>
+<label>B. No, they can have it when I get off<br/></label>
 
 
 </form>
@@ -35,10 +35,10 @@ B. No, they can have it when I get off<br/>
 
 <p>If a baby is crying on an airplane, do you say something to the mother?</p>
 <input type="radio" value="A" />
-A. Yes, why bring the newborn<br/>
+<label>A. Yes, why bring the newborn<br/></label>
 
 <input type="radio" value="B" />
-B. No, she is just as miserable<br/>
+<label>B. No, she is just as miserable<br/></label>
 
 
 </form>
