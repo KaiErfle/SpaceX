@@ -1,5 +1,6 @@
 
 .button_box{
+  font-size: 24px;
   font-family: VT323;
   border-radius: 5%;
   /* border: black dashed 2px; */
@@ -7,6 +8,7 @@
   display: inline-flex;
   cursor: pointer;
   margin: 5px;
+  margin-top: 40px;
 }
 
 .button_box{

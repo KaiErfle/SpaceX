@@ -6,8 +6,6 @@ import Logo from '../images/SpaceX logo.png';
 import MenuButton from '../comps/Menu/MenuButton'
 import Button from '../comps/Button';
 
-
-
 const Index = () => <div className="HomePage">
     <Header text="Home" fontSize="40px" />
     <a id="menu"><MenuButton /></a>
@@ -18,7 +16,7 @@ const Index = () => <div className="HomePage">
     <Link href="/LivingPage"><button>How to live on Mars</button></Link>
     <Link href="/AboutPage"><button>About SpaceX</button></Link>
     <Link href="/GalleryPage"><button>Gallery</button></Link>
-    <Link href="/TestPages/PhysicalTestPage"><button>Take the Test</button></Link>
+    <Link href="/TestPages/PhysicalTestPage"><Button text="Take the test " /></Link>
 </div>
 
 export default Index
