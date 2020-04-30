@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link'
-import './PhysicalTest.css';
+import './IQTest.css';
 import Header from '../../../comps/Header'
 import MenuButton from '../../../comps/Menu/MenuButton'
 import IQ from '../../../comps/Test/IQ'
