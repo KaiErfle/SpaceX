@@ -12,11 +12,11 @@ const MenuButton = () => <div>
 
 <div className="show" id="flyoutMenu" onClick={slide}>
     <h2><a href="#">Home</a></h2>
-    <h2><a class="items" href="#">Info about Mars</a></h2>
-    <h2><a class="items" href="#">How to live on Mars</a></h2>
-    <h2><a class="items" href="#">About SpaceX</a></h2>
-    <h2><a class="items" href="#">Gallery</a></h2>
-    <h2><a class="items" href="#">Take the test</a></h2>
+    <h2><a className="items" href="#">Info about Mars</a></h2>
+    <h2><a className="items" href="#">How to live on Mars</a></h2>
+    <h2><a className="items" href="#">About SpaceX</a></h2>
+    <h2><a className="items" href="#">Gallery</a></h2>
+    <h2><a className="items" href="#">Take the test</a></h2>
 </div>
 </div>  
 

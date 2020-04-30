@@ -11,8 +11,10 @@ const PhysicalTest = () => <div>
     <Header text="Test" fontSize="34px" />
     <a id="button"><MenuButton /></a>
     <Physical />
-    <Button text="Continue"/>
+    <Link href="EthicalTestPage"> <Button text="Continue"/> </Link>
     </div>
 </div>
+
+
 
 export default PhysicalTest 
