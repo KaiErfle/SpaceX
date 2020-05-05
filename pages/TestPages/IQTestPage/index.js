@@ -5,13 +5,14 @@ import Header from '../../../comps/Header'
 import MenuButton from '../../../comps/Menu/MenuButton'
 import IQ from '../../../comps/Test/IQ'
 import Button from '../../../comps/Button'
+import Router from 'next/router'
 
 const IQTest = () => <div>
     <div className="bg">
     <Header text="Test" fontSize="34px" />
     <a id="button"><MenuButton /></a>
     <IQ />
-    <Button text="Continue"/>
+    <Button text="continue" onClick={()=>{ Router.push("/CongratsPage")}}/>
     </div>
 </div>
 
