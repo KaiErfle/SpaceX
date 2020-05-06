@@ -1,15 +1,15 @@
 .bg{
-    height: 100vh;
-    display: inline-flex;
-    flex-direction: column;
+
+    max-height: 300vh;
+    display: flex;
+    flex-wrap: wrap;
     background-color: black;
+    padding-bottom: 20px;
 }
 
-.images{
-    margin-top: 20px;
-    width: 400px;
-    height: 200px;
-    border: white solid 1px;
+#header{
+    position: relative;
+    left: 45%;
 }
 
 #button{
@@ -17,3 +17,25 @@
     top: 50px;
     left: 40px;
 }
+
+.column {
+    margin-top: 10%;
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 4px;
+    
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  #left{
+      margin-left: -70px;
+  }
+
+  #right{
+      margin-right: 30px;
+  }
