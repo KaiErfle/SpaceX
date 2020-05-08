@@ -16,7 +16,7 @@ const fail = () => <div>
             </div>
         <img src={Img} />
 
-        <Button text="finish" onClick={()=>{ Router.push("/pages/index.js")}}/>
+        <Button text="finish" onClick={()=>{ Router.push("/#")}}/>
 
     </div>
 
