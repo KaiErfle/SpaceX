@@ -16,7 +16,6 @@ const Index = () => <div className="HomePage">
     <Link href="/LivingPage"><button>How to live on Mars</button></Link>
     <Link href="/AboutPage"><button>About SpaceX</button></Link>
     <Link href="/GalleryPage"><button>Gallery</button></Link>
-    <Link href="/FailedPage"><button>testing fail page</button></Link>
     <Link href="/WelcomePage"><Button text="Take the test " /></Link>
 </div>
 
