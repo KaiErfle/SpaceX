@@ -4,10 +4,10 @@ import Header from '../../comps/Header';
 import Info from '../../comps/Info';
 import MenuButton from '../../comps/Menu/MenuButton'
 
-const Info1 = require('../../images/Info1.jpg');
-const Info2 = require('../../images/Info2.jpg');
-const Info3 = require('../../images/Info3.jpg');
-const Info4 = require('../../images/Info4.jpg');
+const Info1 = require('../../images/info1.jpg');
+const Info2 = require('../../images/info2.jpg');
+const Info3 = require('../../images/info3.jpg');
+const Info4 = require('../../images/info4.jpg');
 
 const Home = () => <div>
     <div className="ibg">
