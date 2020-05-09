@@ -1,7 +1,9 @@
 .physical-test{
+    width: 100vw;
     display: inline-flex;
     flex-direction: column;
-    
+    align-items: center ;
+
 }
 
 h1{
@@ -21,4 +23,8 @@ p{
 
 label{
     color: white;
+}
+
+#form{
+    align-items: left;
 }
