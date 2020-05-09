@@ -7,7 +7,7 @@ import Router from 'next/router'
 const img = require('../../images/congrats.jpg');
 
 const congrats = () => <div>
-    <div className="bg">
+    <div className="cbg">
         <Header text="Congratulations!" fontSize="34px"/>
             <div id="text">
             <p>You passed the test! <br />
