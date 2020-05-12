@@ -2,6 +2,7 @@
     display: inline-flex;
     flex-direction: column;
     background-color: black;
+    background-image: url(/images/stars.gif);
     width: 100vw;
     height: 150vh;
     align-items: center;

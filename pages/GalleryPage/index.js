@@ -10,9 +10,9 @@ import img5 from '../../images/img 5.jpg'
 import img6 from '../../images/img 6.jpg'
 
 const Gallery = () => <div>
-    <div className="bg">
+    <div className="gbg">
         <a id="button"><MenuButton /></a>
-        <a id="header"><Header text="Gallery" fontSize="34px" /></a>
+        <a id="header"><Header text="Gallery" fontSize="54px" /></a>
         <div className="column" id="left">
             <div className="images"><img src={img1} alt='img' id="img1" /></div>
             <div className="images"><img src={img6} alt='img' id="img6" /></div>

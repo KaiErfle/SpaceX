@@ -13,6 +13,7 @@ const Home = () => <div>
     <div className="ibg">
         <a id="button"><MenuButton /></a>
         <Header text="About Mars" fontSize="34px" />
+    <div className="contain">
         <a className="infopage">
         <Info
             img={Info1} alt='img' id="info1" 
@@ -37,6 +38,7 @@ const Home = () => <div>
             text="Liquid water cannot exist on the surface of Mars due to low atmospheric pressure, which is less than 1% that of Earth's, except at the lowest elevations for short periods of time. The two polar ice caps appear to be made largely of water. The amount of water ice in the south polar ice cap, if melted, would be enough to cover the entire planets surface to a depth of 11 meters (36 ft)."
             name="Water on Mars"/>
         </a>
+    </div>
     </div>
 </div>
 

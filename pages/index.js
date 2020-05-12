@@ -5,6 +5,9 @@ import Header from '../comps/Header';
 import Logo from '../images/SpaceX logo.png';
 import MenuButton from '../comps/Menu/MenuButton'
 import Button from '../comps/Button';
+import gif from '../images/stars.gif'
+
+<img src={gif} />
 
 const Index = () => <div className="HomePage">
     <Header text="Home" fontSize="40px" />

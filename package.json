@@ -10,7 +10,6 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT"
-
   },
   "repository": {
     "type": "git",
@@ -36,6 +35,8 @@
     "@storybook/addon-links": "^5.3.18",
     "@storybook/addons": "^5.3.18",
     "@storybook/react": "^5.3.18",
-    "babel-loader": "^8.1.0"
+    "babel-loader": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "url-loader": "^4.1.0"
   }
 }

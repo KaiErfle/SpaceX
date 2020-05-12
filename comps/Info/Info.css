@@ -12,12 +12,13 @@
 
 .container a{
     position: relative;
-    top: -60px;
+    top: -40px;
+    margin: 10px;
 }
 
 .container img{
     position: relative;
-    top: -30px;
+    /* top: -30px; */
     width: 250px;
     height: 225px;
     object-fit: contain;
@@ -28,7 +29,7 @@
     color: #ffffff;
     font-family: PT Sans;
     position: relative;
-    top: -80px;
+    top: -70px;
     display: block;
 }
 
