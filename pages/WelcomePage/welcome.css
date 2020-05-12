@@ -9,12 +9,12 @@
 
 .wbg p{
     color: white;
-    /* width: 50%; */
+    width: 50%;
 }
 
 #wcontain{
     position: relative;
     left: 35%;
-    /* width: 50vw; */
+    width: 50vw;
 
 }

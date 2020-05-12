@@ -9,7 +9,7 @@ const welcome = () => <div>
     <div className="wbg">
         <div id="wcontain">
         <Header text="Hey there!" fontSize="34px"/>
-            <div id="text">
+            <div id="wtext">
             <p>Today we will be testing if you're eligible for
             the mission to Mars!<br /><br />
             Astronauts have to be smart, mentally fit and 

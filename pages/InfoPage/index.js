@@ -11,9 +11,9 @@ const Info4 = require('../../images/info4.jpg');
 
 const Home = () => <div>
     <div className="ibg">
-        <a id="button"><MenuButton /></a>
+        <a id="ibutton"><MenuButton /></a>
         <Header text="About Mars" fontSize="34px" />
-    <div className="contain">
+    <div className="icontain">
         <a className="infopage">
         <Info
             img={Info1} alt='img' id="info1" 

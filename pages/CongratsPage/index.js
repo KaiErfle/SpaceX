@@ -9,7 +9,7 @@ const img = require('../../images/congrats.jpg');
 const congrats = () => <div>
     <div className="cbg">
         <Header text="Congratulations!" fontSize="34px"/>
-            <div id="text">
+            <div id="ctext">
             <p>You passed the test! <br />
             The SpaceX mission to Mars is happy to bring you aboard! <br />
             <br/> Below you will see some illustrations showing what Mars could possilbly look like if humans are one day able to colonoize the red planet <br />

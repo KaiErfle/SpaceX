@@ -1,22 +1,25 @@
 .cbg{
+    width: 100vw;
+    height: 100vh;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     background-color: black;
 }
 
-img{
+.cbg img{
     width: 500px;
     height: 350px;
     overflow: hidden;
     
 }
 
-#text{
-    margin-left: 20px;
-    width: 400px;
+#ctext{
+    margin-left: 20%;
+    width: 50%;
 }
 
 .cbg p{
     color: white;
+    width: 50%;
 }

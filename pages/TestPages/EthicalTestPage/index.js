@@ -8,9 +8,9 @@ import Button from '../../../comps/Button'
 import Router from 'next/router'
 
 const EthicalTest = () => <div>
-    <div className="bg">
+    <div className="ebg">
     <Header text="Test" fontSize="34px" />
-    <a id="button"><MenuButton /></a>
+    <a id="ebutton"><MenuButton /></a>
     <Ethical />
     <Button text="continue" onClick={()=>{ Router.push("/TestPages/IQTestPage")}}/>
     </div>

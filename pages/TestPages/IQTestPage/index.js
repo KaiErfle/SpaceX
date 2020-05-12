@@ -8,9 +8,9 @@ import Button from '../../../comps/Button'
 import Router from 'next/router'
 
 const IQTest = () => <div>
-    <div className="bg">
+    <div className="IQbg">
     <Header text="Test" fontSize="34px" />
-    <a id="button"><MenuButton /></a>
+    <a id="IQbutton"><MenuButton /></a>
     <IQ />
     <Button text="continue" onClick={()=>{ Router.push("/CongratsPage")}}/>
     </div>

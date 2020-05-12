@@ -11,14 +11,14 @@ import img6 from '../../images/img 6.jpg'
 
 const Gallery = () => <div>
     <div className="gbg">
-        <a id="button"><MenuButton /></a>
-        <a id="header"><Header text="Gallery" fontSize="54px" /></a>
-        <div className="column" id="left">
+        <a id="gbutton"><MenuButton /></a>
+        <a id="gheader"><Header text="Gallery" fontSize="54px" /></a>
+        <div className="gcolumn" id="gleft">
             <div className="images"><img src={img1} alt='img' id="img1" /></div>
             <div className="images"><img src={img6} alt='img' id="img6" /></div>
             <div className="images"><img src={img4} alt='img' id="img4" /></div>
         </div>
-        <div className="column" id="right">    
+        <div className="gcolumn" id="gright">    
             <div className="images"><img src={img3} alt='img' id="img3" /></div>
             <div className="images"><img src={img5} alt='img' id="img5" /></div>
             <div className="images"><img src={img2} alt='img' id="img2" /></div>

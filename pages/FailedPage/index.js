@@ -6,9 +6,9 @@ import Img from '../../comps/Info/blue_pink.png'
 import Router from 'next/router'
 
 const fail = () => <div>
-    <div className="bg">
+    <div className="fbg">
         <Header text="I'm sorry... " fontSize="34px"/>
-            <div id="text">
+            <div id="ftext">
             <p>You failed the test <br />
             The SpaceX mission to Mars is happy to bring you aboard! <br />
             <br/> Below you will see some illustrations showing what Mars could possilbly look like if humans are one day able to colonoize the red planet <br />
