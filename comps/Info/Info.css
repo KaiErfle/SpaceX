@@ -1,35 +1,40 @@
-.container{
+.infobg{
+    background-color: black;
+}
+
+.infocontainer{
     width: 30%;
-    height: 50vh;
+    height: 55vh;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    /* border: black solid 1px; */
-    background-color: #141414 ;
-    padding:0px 15px 0px 15px;
+    border: white solid 1px;
+    /* background-color: #141414 ; */
+    /* margin-top: 20px; */
+    padding:25px;
     
 }
 
-.container a{
+.infocontainer a{
     position: relative;
-    top: -40px;
+    top: -20px;
     margin: 10px;
 }
 
-.container img{
+.infocontainer img{
     position: relative;
     /* top: -30px; */
-    width: 250px;
-    height: 225px;
+    width: 400px;
+    
     object-fit: contain;
 }
 
-.container p {
+.infocontainer p {
     font-size: small;
     color: #ffffff;
     font-family: PT Sans;
     position: relative;
-    top: -70px;
+    top: -60px;
     display: block;
 }
 

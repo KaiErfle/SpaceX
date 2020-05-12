@@ -4,8 +4,8 @@ import Header from '../Header';
 
 const defaultImg = require('./blue_pink.png')
 
-const Info = ({img, name, text}) => <div>
-    <div className="container">
+const Info = ({img, name, text}) => <div className="infobg">
+    <div className="infocontainer">
         <img src={img} />
         <a><Header fontSize="24px" text={name} /></a>
         <p>{text}</p>
