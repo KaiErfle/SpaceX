@@ -5,6 +5,7 @@ import Button from '../../comps/Button'
 import Header from '../../comps/Header'
 import Input from '../../comps/Input'
 import Router from 'next/router'
+import MenuButton from '../../comps/Menu/MenuButton'
 
 // import {data, ChangeData} from '../data'
 
@@ -13,6 +14,7 @@ const ChatPage = ({}) => {
     const [resp, setResp] = useState("Hi there! My name is B-154, and I will be testing to see if you have what it takes to go to space. Are you ready to begin?");
        
        return <div className="chatpg"> 
+       <a><MenuButton /></a>
        <div className="chatbg">
         <div id="ready">
             <Header text="Ready to take your test?" />
@@ -38,12 +40,12 @@ const ChatPage = ({}) => {
             }}
             />
         </div>
-        <div id="complete">
+        {/* <div id="complete">
 
-           {/* {data.lastaction !== "" ? */}
+           {data.lastaction !== "" ?
             <Button text="Take me to the Gallery!" onClick={()=>{ Router.push("/GalleryPage")}}
            /> : null}
-        </div>
+        </div> */}
     </div>
 </div>
 }
