@@ -6,7 +6,7 @@ import Header from '../../comps/Header'
 import Input from '../../comps/Input'
 import Router from 'next/router'
 
-import {data, ChangeData} from '../components/data'
+import {data, ChangeData} from '../data'
 
 const ChatPage = ({}) => {
     const [msg, setMsg] = useState("...");

@@ -3,6 +3,6 @@ export var data = {
     numClicks:0
 }
 
-export function ChangeData(d){
+export default function ChangeData(d){
     data = d;
 }
