@@ -7,7 +7,7 @@ import MenuButton from '../comps/Menu/MenuButton'
 import Button from '../comps/Button';
 import gif from '../images/stars.gif';
 
-import {data, ChangeData} from './data';
+// import {data, ChangeData} from './data';
 
 <img src={gif} />
 

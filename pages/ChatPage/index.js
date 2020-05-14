@@ -47,10 +47,6 @@ const ChatPage = ({}) => {
 </div>
 }
 
-if(data.numClicks > 0 && data.numClicks < 10){
-    
-} 
-
 function Checkresponse(inp){
     var num = data.numClicks;
     ChangeData({
