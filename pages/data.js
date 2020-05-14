@@ -1,6 +1,6 @@
 export var data = {
     lastaction:"",
-    numClicks:0
+    // numClicks:0
 }
 
 export function ChangeData(d){
