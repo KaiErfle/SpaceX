@@ -8,6 +8,7 @@ const Info1 = require('../../images/info1.jpg');
 const Info2 = require('../../images/info2.jpg');
 const Info3 = require('../../images/info3.jpg');
 const Info4 = require('../../images/info4.jpg');
+const Info5 = require('../../images/info5.jpg');
 
 const Home = () => <div>
     <div className="ibg">
@@ -17,7 +18,7 @@ const Home = () => <div>
         <a className="infopage">
         <Info
             img={Info1} alt='img' id="info1" 
-            text="Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the 'Red Planet'."
+            text="Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the 'Red Planet' or the 'Martian Planet'."
             name="What is Mars?"/>
         </a>
         <a className="infopage">
@@ -37,6 +38,12 @@ const Home = () => <div>
             img={Info4} alt='img' id="info4" 
             text="Liquid water cannot exist on the surface of Mars due to low atmospheric pressure, which is less than 1% that of Earth's, except at the lowest elevations for short periods of time. The two polar ice caps appear to be made largely of water. The amount of water ice in the south polar ice cap, if melted, would be enough to cover the entire planets surface to a depth of 11 meters (36 ft)."
             name="Water on Mars"/>
+        </a>
+        <a className="infopage">
+        <Info
+            img={Info5} alt='img' id="info4"
+            text="A day on the red planet is only 37 minutes longer then a typical day on Earth. However with just a half hour extra per day, a Martian year is 687 Earth days. The time between when the sun sets and rises on Mars is called a sol instead of a day. Dust in the Martian atmosphere has fine particles that permit blue light to penetrate the atmosphere more efficiently than longer-wavelength colors, turning the sunset on Mars blue." 
+            name="Days on Mars"/>
         </a>
     </div>
     </div>

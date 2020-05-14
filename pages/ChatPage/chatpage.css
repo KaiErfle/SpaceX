@@ -1,0 +1,17 @@
+.chatpg{
+    display: inline-flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.chatbg{
+    position: relative;
+    margin-left: 30%;
+    border: red solid 1px;
+    padding: 5%;
+    width: 25vw;
+    height: fit-content;
+}
+

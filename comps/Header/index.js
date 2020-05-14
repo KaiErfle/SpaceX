@@ -7,7 +7,7 @@ const Header = ({text, fontSize, color}) => <div className="header">
 
 Header.defaultProps ={ 
     fontSize:24,
-    color:"#2699fb",
+    color:"red",
     text:"Header",
 }
 

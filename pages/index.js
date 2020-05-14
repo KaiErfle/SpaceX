@@ -5,7 +5,9 @@ import Header from '../comps/Header';
 import Logo from '../images/SpaceX logo.png';
 import MenuButton from '../comps/Menu/MenuButton'
 import Button from '../comps/Button';
-import gif from '../images/stars.gif'
+import gif from '../images/stars.gif';
+
+import {data, ChangeData} from './data';
 
 <img src={gif} />
 

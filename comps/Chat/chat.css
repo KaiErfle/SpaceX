@@ -1,0 +1,8 @@
+.response{
+    width: fit-content;
+    border: solid 1px rgb(255, 154, 154);
+    padding: 5px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-family: PT Sans;
+}

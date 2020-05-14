@@ -21,7 +21,7 @@ Kidding! I'm sure you're nice, but just to be sure...</p>
 
 <form id="elderly">
 
-<p>Do you give upi your seat on the bus to an elderly man/woman? </p>
+<p>Do you give up your seat on the bus to an elderly man/woman? </p>
 <input type="radio" value="A" />
 <label>A. Yes, they need it sit<br/></label>
 

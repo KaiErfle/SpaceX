@@ -12,18 +12,17 @@ const welcome = () => <div>
             <div id="wtext">
             <p>Today we will be testing if you're eligible for
             the mission to Mars!<br /><br />
-            Astronauts have to be smart, mentally fit and 
-            physically fit, so in order to see if you fit the
-            criteria, we will be testing you on 3 things:<br /><br />
-            - Physical fitness <br /><br />
-            - How ethically inclined you are <br /><br />
-            - and IQ <br /><br />
-            Each question you answer in the ethical and IQ
-            test will be the deciding factor to see if you'll
+            Most Astronauts are scientists, that means you have to be pretty smart
+            to be an Astronaut. If you payed any attention to the articles provided
+            you should have no problem with this test, if you didnt pay attention...
+            <br /><br />
+            Good Luck! <br /><br />
+            Each question you answer in the test will decide if you'll
             make it in the void of space<br /><br />
+            *most answers are one word*<br/><br />
             So good luck and happy space travel!
         </p>
-        <Button text="Start" onClick={()=>{ Router.push("/TestPages/PhysicalTestPage")}}/>
+        <Button text="Start" onClick={()=>{ Router.push("/ChatPage")}}/>
         </div>    
         </div>
         

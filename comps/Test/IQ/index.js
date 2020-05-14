@@ -2,7 +2,7 @@ import React from 'react';
 import './IQ.css';
 import Button from '../../Button';
 
-const IQ = () => <div>
+const IQ = () => <div className="container">
 
 <h1>Part 3: IQ</h1>
 
