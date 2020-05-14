@@ -6,7 +6,7 @@ import Header from '../../comps/Header'
 import Input from '../../comps/Input'
 import Router from 'next/router'
 
-import {data, ChangeData} from '../data'
+// import {data, ChangeData} from '../data'
 
 const ChatPage = ({}) => {
     const [msg, setMsg] = useState("...");
@@ -40,7 +40,8 @@ const ChatPage = ({}) => {
         </div>
         <div id="complete">
 
-           {data.lastaction !== "" ? <Button text="Take me to the Gallery!" onClick={()=>{ Router.push("/GalleryPage")}}
+           {/* {data.lastaction !== "" ? */}
+            <Button text="Take me to the Gallery!" onClick={()=>{ Router.push("/GalleryPage")}}
            /> : null}
         </div>
     </div>
@@ -48,11 +49,11 @@ const ChatPage = ({}) => {
 }
 
 function Checkresponse(inp){
-    var num = data.numClicks;
-    ChangeData({
-        lastaction:"Clicked send",
-        numClicks:num+1
-    })
+    // var num = data.numClicks;
+    // ChangeData({
+    //     lastaction:"Clicked send",
+    //     numClicks:num+1
+    // })
     switch(inp.toLowerCase()){
         case "yes":
             return"perfect lets get started! First off tell me, what color is Mars? gotta make sure you know the basics";
