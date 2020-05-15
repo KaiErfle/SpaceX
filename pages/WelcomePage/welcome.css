@@ -20,7 +20,7 @@
 
 }
 
-.stars{
+.wstars{
     /* display: flex; */
     background-color: black;
     position: relative;
@@ -30,7 +30,7 @@
     height: 120vh;
 }
 
-.stars img{
+.wstars img{
     position: relative;
     left: -10%;
     top: -10%;
