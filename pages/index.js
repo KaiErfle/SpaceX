@@ -5,13 +5,15 @@ import Header from '../comps/Header';
 import Logo from '../images/SpaceX logo.png';
 import MenuButton from '../comps/Menu/MenuButton'
 import Button from '../comps/Button';
-import gif from '../images/stars.gif';
+
 
 // import {data, ChangeData} from './data';
 
-<img src={gif} />
+const stars = require('../images/stars.gif');
 
-const Index = () => <div className="HomePage">
+const Index = () => <div className="stars">
+    <img src={stars} />
+    <div  className="HomePage">
     <Header text="Home" fontSize="40px" />
     <a id="menu"><MenuButton /></a>
     <header>
@@ -22,6 +24,7 @@ const Index = () => <div className="HomePage">
     <Link href="/AboutPage"><button>About SpaceX</button></Link>
     <Link href="/GalleryPage"><button>Gallery</button></Link>
     <Link href="/WelcomePage"><Button text="Take the test " /></Link>
+</div>
 </div>
 
 export default Index

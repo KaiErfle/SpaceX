@@ -1,19 +1,21 @@
 import React, {useState} from 'react';
 import './chatpage.css'
 import Chat from '../../comps/Chat'
-import Button from '../../comps/Button'
 import Header from '../../comps/Header'
 import Input from '../../comps/Input'
-import Router from 'next/router'
 import MenuButton from '../../comps/Menu/MenuButton'
 
 // import {data, ChangeData} from '../data'
+const stars = require('../../images/stars.gif');
 
 const ChatPage = ({}) => {
     const [msg, setMsg] = useState("...");
     const [resp, setResp] = useState("Hi there! My name is B-154, and I will be testing to see if you have what it takes to go to space. Are you ready to begin?");
        
-       return <div className="chatpg"> 
+
+       return <div className="chat_stars">
+    <img src={stars} />        
+    <div className="chatpg"> 
        <a><MenuButton /></a>
        <div className="chatbg">
         <div id="ready">
@@ -48,6 +50,7 @@ const ChatPage = ({}) => {
         </div> */}
     </div>
 </div>
+</div>
 }
 
 function Checkresponse(inp){
@@ -64,7 +67,7 @@ function Checkresponse(inp){
             return"Great! next one is a little harder, what is 12 multiplied by 12?";
 
         case"144":
-            return"Wow! you know basic math! okay next question, what number is missing? 4, 9, 16, 25, 26, ?, 64";
+            return"Wow! you know basic math! okay next question, what number is missing? 4, 9, 16, 25, 36, ?, 64";
 
         case"49":
             return"Are you sure you aren't cheating? anyway, In printing, it’s the colour black. In chemistry, it’s potassium. In baseball, it’s a strikeout. Which letter is it?";

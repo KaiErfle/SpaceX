@@ -1,11 +1,31 @@
+.stars{
+    /* display: flex; */
+    background-color: black;
+    position: relative;
+    width: 100vw;
+    height: 120vh;
+    overflow: hidden;
+}
+
+.stars img{
+    position: relative;
+    left: -10%;
+    top: -10%;
+    width: 120vw ;
+    height: 120vh ;
+    
+}
+
 .HomePage{
     display: inline-flex;
     flex-direction: column;
-    background-color: black;
-    background-image: url(/images/stars.gif);
+    /* background-color: black; */
+    /* background-image: url(/images/stars.gif); */
     width: 100vw;
-    height: 150vh;
+    height: 200vh;
     align-items: center;
+    position: relative;
+    top: -100%;
 
 }
 
