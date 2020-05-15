@@ -5,8 +5,12 @@ import Info from '../../comps/Info';
 import MenuButton from '../../comps/Menu/MenuButton'
 import img7 from '../../images/img 7.jpg'
 
+const stars = require('../../images/stars.gif');
 
 const Home = () => <div>
+    <div className="astars">
+    <img src={stars} />
+    </div>
     <div className="abg">
         <a id="button"><MenuButton /></a>
         <Header text="About SpaceX" fontSize="34px" />

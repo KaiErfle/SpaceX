@@ -8,8 +8,12 @@ const live1 = require('../../images/live1.jpg');
 const live2 = require('../../images/live2.jpeg');
 const live3 = require('../../images/live3.jpg');
 const live4 = require('../../images/live4.jpg');
+const stars = require('../../images/stars.gif');
 
 const Home = () => <div>
+    <div className="stars">
+    <img src={stars} />
+    </div>
     <div className="Lbg">
         <a id="Lbutton"><MenuButton /></a>
         <Header text="How to live on Mars" fontSize="34px" />

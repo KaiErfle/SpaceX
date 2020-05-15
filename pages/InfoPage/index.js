@@ -9,8 +9,12 @@ const Info2 = require('../../images/info2.jpg');
 const Info3 = require('../../images/info3.jpg');
 const Info4 = require('../../images/info4.jpg');
 const Info5 = require('../../images/info5.jpg');
+const stars = require('../../images/stars.gif');
 
 const Home = () => <div>
+    <div className="stars">
+    <img src={stars} />
+    </div>
     <div className="ibg">
         <a id="ibutton"><MenuButton /></a>
         <Header text="About Mars" fontSize="34px" />

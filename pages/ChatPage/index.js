@@ -1,22 +1,24 @@
 import React, {useState} from 'react';
-import './chatpage.css'
-import Chat from '../../comps/Chat'
-import Header from '../../comps/Header'
-import Input from '../../comps/Input'
+import './chatpage.css';
+import Chat from '../../comps/Chat';
+import Header from '../../comps/Header';
+import Input from '../../comps/Input';
 import MenuButton from '../../comps/Menu/MenuButton'
+import Button from '../../comps/Button';
+import Router from 'next/router';
 
 // import {data, ChangeData} from '../data'
 const stars = require('../../images/stars.gif');
 
 const ChatPage = ({}) => {
     const [msg, setMsg] = useState("...");
-    const [resp, setResp] = useState("Hi there! My name is B-154, and I will be testing to see if you have what it takes to go to space. Are you ready to begin?");
+    const [resp, setResp] = useState("Hi there! My name is B-154, I will be testing to see if you have what it takes to go to space. I'm going to ask you a series of questions, all you have to do is reply with ONE WORD answers (i.e no,yes,green,grape,sun etc...) Can you handle that?");
        
 
        return <div className="chat_stars">
     <img src={stars} />        
     <div className="chatpg"> 
-       <a><MenuButton /></a>
+       <a><Button text="Back to home"  onClick={()=>{ Router.push("/#")}} /></a>
        <div className="chatbg">
         <div id="ready">
             <Header text="Ready to take your test?" />
@@ -85,7 +87,7 @@ function Checkresponse(inp){
             return"Right on! okay last question and we will see if you can join the mission to Mars, What is a Martian day called? (sol, dyne, nova, or erg)";
 
         case"sol":
-            return"Congratulations! you have what it takes to be on the next mission to mars! the gallery should be open now, go ahead and take a look at some concept art!";
+            return"Congratulations! you have what it takes to be on the next mission to mars! If you're up for a real challenge try decoding this (alfa, romeo, echo---yankee, oscar, uniform---romeo, echo, alfa, lima) ";
 
         case"dyne":
             return"I'm sorry but that wasnt the right answer, here are the options again, (sol, dyne, nova, or erg) ";
@@ -100,10 +102,13 @@ function Checkresponse(inp){
             return"I'm sorry but I'm having trouble reading you, try typing something else";
 
         case"are you real":
-            return"The bigger question is, how do you know you are..."
+            return"The bigger question is, how do you know you are...   -.- .- ..";
 
         case"whats the meaning of life":
-            return"I'm not sure yet, I haven't lived long enough to learn"
+            return"I'm not sure yet, I haven't lived long enough to learn";
+
+        case"kai":
+            return"Hey thats my creators name! I don't know where he went though. ";
     }
 }
 

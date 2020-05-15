@@ -25,10 +25,13 @@
 }
 
 .chat_stars{
+    position: relative;
+    top: -30px;
+    left: -30px;
     background-color: black;
     width: 120vw;
     height: 120vh;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .chat_stars img{
