@@ -9,7 +9,7 @@ const stars = require('../../images/stars.gif');
 
 const welcome = () => <div>
     <div className="wbg">
-    <div className="wstars">
+    <div className="welcome_stars">
     <img src={stars} />
     </div>
         <div id="wcontain">

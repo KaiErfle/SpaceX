@@ -11,7 +11,7 @@ const live4 = require('../../images/live4.jpg');
 const stars = require('../../images/stars.gif');
 
 const Home = () => <div>
-    <div className="stars">
+    <div className="living_stars">
     <img src={stars} />
     </div>
     <div className="Lbg">

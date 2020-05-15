@@ -14,7 +14,7 @@
 }
 
 
-.stars{
+.info_stars{
     /* display: flex; */
     background-color: black;
     position: relative;
@@ -25,7 +25,7 @@
     /* overflow: hidden; */
 }
 
-.stars img{
+.info_stars img{
     position: relative;
     left: -10%;
     top: -10%;

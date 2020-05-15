@@ -12,7 +12,7 @@ const Info5 = require('../../images/info5.jpg');
 const stars = require('../../images/stars.gif');
 
 const Home = () => <div>
-    <div className="stars">
+    <div className="info_stars">
     <img src={stars} />
     </div>
     <div className="ibg">

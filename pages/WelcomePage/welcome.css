@@ -20,7 +20,7 @@
 
 }
 
-.wstars{
+.welcome_stars{
     /* display: flex; */
     background-color: black;
     position: relative;
@@ -30,7 +30,7 @@
     height: 120vh;
 }
 
-.wstars img{
+.welcome_stars img{
     position: relative;
     left: -10%;
     top: -10%;

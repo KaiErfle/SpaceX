@@ -13,18 +13,18 @@
     /* background-color: black; */
 }
 
-.stars{
+.living_stars{
     /* display: flex; */
     background-color: black;
     position: relative;
     top: -30px;
     left: -30px;
     width: 100vw;
-    height: 375vh;
+    height: 300vh;
     /* overflow: hidden; */
 }
 
-.stars img{
+.living_stars img{
     position: relative;
     left: -10%;
     top: -10%;

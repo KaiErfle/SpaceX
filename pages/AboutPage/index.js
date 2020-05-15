@@ -8,7 +8,7 @@ import img7 from '../../images/img 7.jpg'
 const stars = require('../../images/stars.gif');
 
 const Home = () => <div>
-    <div className="astars">
+    <div className="about_stars">
     <img src={stars} />
     </div>
     <div className="abg">
